@@ -306,7 +306,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/e3392782-0e79-4c2a-b99b-3c9c0a33fd01")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW13" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp c1d1fe13-4416-46f8-be47-f3a7a57ad47d)
@@ -6288,7 +6288,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/b4c1d5fd-2bf6-448f-b211-74714608c4c9")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW17" (at 0 -3 -30 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp bd45abef-dd58-41b7-aa3b-2d6ab2472308)
@@ -6397,7 +6397,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/174d8b38-f132-4220-8e6d-56fc8d9663ec")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "RSW1" (at 0 2.55 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 327ad374-bfea-4114-b89a-816eebf50c85)
@@ -6870,9 +6870,7 @@
     (pad "" smd rect (at -3.65 -1.1) (size 1 0.8) (layers "B.Cu") (tstamp 129d79b2-5df8-4c29-8d0f-ff654f3868c3))
     (pad "" smd rect (at -3.65 1.1 180) (size 1 0.8) (layers "F.Cu") (tstamp d1c25096-ae47-4473-83af-f3c3d307b2b8))
     (pad "" smd rect (at -3.65 1.1) (size 1 0.8) (layers "B.Cu") (tstamp 1f610325-f6b9-4e98-b1f6-0ed68dbc9746))
-    (pad "" np_thru_hole circle (at -1.5 0) (size 0.9 0.9) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 8d95de5d-46fe-40b0-833e-51cdd8fb5494))
     (pad "" np_thru_hole circle (at -1.5 0 180) (size 0.9 0.9) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp a5fc3960-f21b-471f-8190-3ac91f383c55))
-    (pad "" np_thru_hole circle (at 1.5 0) (size 0.9 0.9) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 1fd6711d-4d3f-4b30-aaf2-5f88aa877bb0))
     (pad "" np_thru_hole circle (at 1.5 0 180) (size 0.9 0.9) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 60b3e5ed-5553-40dd-90fa-18beecff4564))
     (pad "" smd rect (at 3.65 -1.1 180) (size 1 0.8) (layers "F.Cu") (tstamp 457ddac8-1f06-4411-b6e4-d5d3a5a57be1))
     (pad "" smd rect (at 3.65 -1.1) (size 1 0.8) (layers "B.Cu") (tstamp 0f766af4-03c3-47d2-a405-a18a71cf42f3))
@@ -6900,7 +6898,7 @@
   (footprint "arkenswoop:Kailh-pg1350-socket-reversible" (layer "F.Cu")
     (tstamp 50b0b2b0-9ef2-46a6-896c-d64832d68216)
     (at 71.229542 121.239972)
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW11" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 47d50e6d-98ba-42cd-9d40-8c85f1638650)
@@ -7177,7 +7175,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/dc3fb96f-8636-4db6-b72d-87548b00c440")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW9" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp cbdadd21-ec81-40fe-9cd3-d592f7f7a189)
@@ -7901,7 +7899,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/2b0f8e59-aa1b-42dd-9f97-66554784a6e4")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW10" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 0ac6a78d-4991-422f-9ecb-154068766e3f)
@@ -10294,7 +10292,7 @@
   (footprint "arkenswoop:Kailh-pg1350-socket-reversible" (layer "F.Cu")
     (tstamp 7848274c-22e5-49de-89dd-1d0c50f0805e)
     (at 71.229542 87.239972)
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW1" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 5b4d640b-c752-41ef-9d04-9870c672437e)
@@ -10550,7 +10548,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/a16db25d-1324-4bd7-8e17-77623d723f44")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW12" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp c9b6012d-9a66-4b7b-887d-8c0939e60414)
@@ -10657,7 +10655,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/082194c1-b456-432e-ad3a-fc6fb9f24164")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW3" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 7b7c70cc-f359-4bc8-83b8-7476c2782e28)
@@ -10764,7 +10762,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/a29ad7f0-fb15-4bea-a6b6-fba742bb4cc6")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW5" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 134d89be-72a0-4fc5-9f58-e5371da6348f)
@@ -10866,7 +10864,7 @@
   (footprint "arkenswoop:Kailh-pg1350-socket-reversible" (layer "F.Cu")
     (tstamp 89e3927a-24e0-459e-b1f5-840f7fef5dd6)
     (at 71.229542 104.239972)
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW6" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 12bd2581-745f-4a0a-831a-5e760132b7c6)
@@ -11381,7 +11379,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/d666c132-9c46-468c-9f06-987c32dda943")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW14" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 010eb268-1619-4477-91e6-70bc200c5b32)
@@ -11786,7 +11784,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/e0088ae9-ffc6-46fc-8274-704539fe9756")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW7" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp a6e7ecdb-bbfb-4980-8a4c-fc98291c753d)
@@ -11893,7 +11891,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6ef68c46-a364-4908-8ac0-454ad9ae6d7c")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW4" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 71bedde3-33d2-48d4-8133-fb79ca2e05e0)
@@ -12316,7 +12314,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/b93ac7aa-385e-48d9-941a-45f799aae11f")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW16" (at 0 -3 -15 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 41adfc93-ba51-49b9-960d-bfc03917355f)
@@ -12423,7 +12421,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/9c5a9e4a-8446-4558-aaf9-1d7d57dd7ffc")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW8" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp f720babc-b19f-47d6-ae24-fd846b27d603)
@@ -13292,7 +13290,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/dac8d215-1e26-490f-bb23-f8c291275548")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW15" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 2a439452-7bcf-45a5-b148-f967d6e9782a)
@@ -13548,7 +13546,7 @@
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/26a5c262-ffd1-4c12-8fef-5b651451269e")
-    (attr smd)
+    (attr through_hole)
     (fp_text reference "SW2" (at 0 -3 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp a3121e36-a698-4f4a-9248-f64f3249afea)

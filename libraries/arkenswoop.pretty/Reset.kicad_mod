@@ -4,7 +4,7 @@
   (tags "Tactile Switch")
   (property "Sheetfile" "one-fell-swoop.kicad_sch")
   (property "Sheetname" "")
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "RSW1" (at 0 2.55) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f4409da0-747d-4cee-b57c-dfa1d3d3e6c7)
