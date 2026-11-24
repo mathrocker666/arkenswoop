@@ -1,6 +1,6 @@
 (footprint "Kailh-pg1350-socket-reversible" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "SW12" (at 0 -3 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 62a719d7-aca3-4fcc-83cd-6b4bb5011843)
