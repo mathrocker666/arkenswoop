@@ -13,7 +13,7 @@ A WIP fork of [jimmerricks's Swoop](https://github.com/jimmerricks/swoop), which
 ⭕ Low profile Kailh Choc switches  
 ⭕ Hotswap  
 ⭕ Dual side-scrolling encoder  
-⭕ Oled screens  
+⭕ Optional SSD1306 OLED or nice!view on each half\
 ⭕ Power switch for battery management  
 ⭕ Bluetooth support w/ nice!nano  
 ⭕ Plate style case with mcu cover
@@ -30,7 +30,7 @@ To build and use an Arkenswoop you will need:
 * 34× keycaps
 * 34× SMD diodes (1N4148W, SOD-123)
 * 2× side-scrolling encoders EVQWGD001
-* 2× OLED LCD Display 128x32 SSD1306 (optional)
+* Optional displays, one per half: 128×32 SSD1306 OLED, or nice!view with a 5-pin 2.54 mm socket and a 3.3 V nice!nano. See the [display assembly guide](BUILD_GUIDE.md#display-on-arkenswoop-v070).
 * 2× MCU cover (optional, 1mm thickness when ordering)
 * 2× reset switches (optional; B3U-1000P(M))
 * Some little rubber feet/bumpers (minimum of 4 on each side)
