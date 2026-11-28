@@ -46,7 +46,7 @@ def render(board_path, outputs, display_detail=False):
             if display_detail and side == "front":
                 # Include the CS marking, display jumpers and adjacent battery pads.
                 display = board.FindFootprintByReference("O1").GetPosition()
-                detail = (pcbnew.ToMM(display.x) - 10, pcbnew.ToMM(display.y) - 7, 24, 12)
+                detail = (pcbnew.ToMM(display.x) - 14, pcbnew.ToMM(display.y) - 6.4, 25, 13)
                 export_png(svg, detail, 960, "arkenswoop/display.png")
 
 

@@ -1,6 +1,6 @@
 # Arkenswoop build guide
 
-Arkenswoop v0.8.0 uses Bluetooth between halves. Fit each half with its own nice!nano, power switch and battery. Flash the central and peripheral halves with the corresponding builds of your Arkenswoop wireless firmware.
+Arkenswoop v0.9.0 uses Bluetooth between halves. Fit each half with its own nice!nano, power switch and battery. Flash the central and peripheral halves with the corresponding builds of your Arkenswoop wireless firmware.
 
 ## Non hotswap version
 
@@ -27,14 +27,14 @@ Arkenswoop v0.8.0 uses Bluetooth between halves. Fit each half with its own nice
 
 ## Display
 
-Choose one display per half. The four holes inside the silkscreen box are the original OLED socket. The two holes just outside the box both carry chip select so that the same PCB can be flipped for the other hand.
+Both halves use the same reversible PCB. The five socket holes form a single row centered on the nice!nano. Each hole has a solder jumper on each face. Choose the jumper face for your display before fitting its socket.
 
-![Front of the v0.8.0 PCB with four boxed OLED holes and the nice!view CS marking at the right end](images/exports/arkenswoop/display.png)
+![Five centered socket holes with one display jumper pair per hole and CS marked at the right end](images/exports/arkenswoop/display.png)
 
 ### nice!view
 
-1. Orient each half with its switches facing up and the USB connector pointing away from you. Find the five consecutive holes ending at the **CS** mark on that face. The leftmost hole of the six stays empty.
-2. Bridge the four **display** jumper pairs on the underside of each half. Leave the four display jumpers on the switch side open. Follow the usual MCU jumper instructions separately.
+1. Place each half switch side up with the USB connector pointing away. The rightmost hole is marked **CS**. The socket uses all five holes.
+2. Turn the half over and bridge all five **Display** jumper pairs on the underside. Leave the switch-side display jumpers open. The MCU jumpers still go on the switch side.
 3. Solder a 1×5, 2.54 mm socket on the switch side. Before inserting the screen, check continuity with power disconnected. Reading left to right from the switch side, the five socket contacts should connect as shown below. Also check that VCC and GND are isolated.
 4. Use a 3.3 V nice!nano. Fit the nice!view face up, with its body over the controller and its CS pin in the marked hole. Choose a socket height that clears the controller.
 
@@ -50,4 +50,4 @@ In an Arkenswoop-compatible ZMK configuration, append `nice_view_adapter nice_vi
 
 ### SSD1306 OLED
 
-For the original four-pin OLED, use the four boxed holes and bridge the four display jumper pairs on the **switch side** only. With USB pointing away, the pin order from left to right is GND, VCC, SCL, SDA. Match the markings on the OLED before applying power.
+With the switch side up and USB pointing away, leave the leftmost hole empty. Fit the four-pin socket in holes 2–5 and bridge only their four **switch-side** display jumper pairs. Leave all five underside pairs open. Check the four contacts against the OLED markings before applying power. From left to right they should read GND, VCC, SCL, SDA.
