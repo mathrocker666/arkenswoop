@@ -2,7 +2,7 @@
 
 A WIP fork of [jimmerricks's Swoop](https://github.com/jimmerricks/swoop), which is a fork of [David Barr's Sweep](https://github.com/davidphilipbarr/Sweep), which is itself based on the fabulous [Ferris by Pierre Chevalier](https://github.com/pierrechevalier83/ferris).
 
-| Wireless Arkenswoop v0.9.1, front | Wireless Arkenswoop v0.9.1, back |
+| Wireless Arkenswoop v0.9.2, front | Wireless Arkenswoop v0.9.2, back |
 | :---: | :---: |
 | ![Front of the reversible PCB with the centered five-pin display socket](images/exports/arkenswoop/front.png) | ![Back of the reversible PCB with the display solder jumpers](images/exports/arkenswoop/back.png) |
 
@@ -18,7 +18,7 @@ A WIP fork of [jimmerricks's Swoop](https://github.com/jimmerricks/swoop), which
 
 ### Components list
 
-The wireless-only Arkenswoop v0.9.1 uses the following parts.
+The wireless-only Arkenswoop v0.9.2 uses the following parts.
 
 * 1× PCB Kit (1.6mm thickness when ordering)
 * 1× back plate kit (optional, 1.2mm thickness when ordering)
