@@ -1,44 +1,27 @@
-on:
-  workflow_dispatch:
-  # push:
-  #   branches:
-  #     - main
-  #   paths:
-  #     - "**/*.kicad_pcb"
+name: Render PCB previews
+on: workflow_dispatch
 
-name: Render Previews
+permissions:
+  contents: read
+
 jobs:
-  pngs:
+  render:
     runs-on: ubuntu-latest
-    name: "Export as PNGs"
+    container: debian:trixie-slim
     steps:
-      # CHECKOUT
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      # PREVIEWS
-      # 30 KEYS
-      - name: Howarya
-        uses: ./.github/actions/export-pngs
+      - uses: actions/checkout@v4
+      - name: Install KiCad and PcbDraw
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends ca-certificates kicad librsvg2-bin python3-venv
+          python3 -m venv --system-site-packages /tmp/pcbdraw
+          /tmp/pcbdraw/bin/pip install pcbdraw==1.2.0
+      - name: Render front, back, and display detail
+        run: |
+          export PATH="/tmp/pcbdraw/bin:$PATH"
+          python .github/render-previews.py
+      - uses: actions/upload-artifact@v4
         with:
-          pcb_file: ./pcbs/howarya/howarya.kicad_pcb
-          pngs_dir: ./images/exports/howarya/
-      - name: Swoop
-        uses: ./.github/actions/export-pngs
-        with:
-          pcb_file: ./pcbs/swoop/swoop.kicad_pcb
-          pngs_dir: ./images/exports/swoop/
-
-      # UPLOAD ARTIFACTS
-      - uses: actions/upload-artifact@v3
-        with:
-          name: images
-          path: ./images/exports/**/*
-
-      # UPDATE GALLERY
-      # - name: Update gallery
-      #   uses: stefanzweifel/git-auto-commit-action@v4.14.1
-      #   with:
-      #     commit_message: "Update gallery (automated)"
-      #     commit_user_name: GitHub Actions Bot
-      #     file_pattern: "**/*.png"
+          name: arkenswoop-previews
+          path: images/exports/
+          if-no-files-found: error

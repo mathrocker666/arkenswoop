@@ -29,6 +29,8 @@ Arkenswoop v0.8.0 uses Bluetooth between halves. Fit each half with its own nice
 
 Choose one display per half. The four holes inside the silkscreen box are the original OLED socket. The two holes just outside the box both carry chip select so that the same PCB can be flipped for the other hand.
 
+![Front of the v0.8.0 PCB with four boxed OLED holes and the nice!view CS marking at the right end](images/exports/arkenswoop/display.png)
+
 ### nice!view
 
 1. Orient each half with its switches facing up and the USB connector pointing away from you. Find the five consecutive holes ending at the **CS** mark on that face. The leftmost hole of the six stays empty.

@@ -1,12 +1,10 @@
 # Arkenswoop
 
-![Fully assembled Arkenswoop](images/full_build.jpeg)
-
 A WIP fork of [jimmerricks's Swoop](https://github.com/jimmerricks/swoop), which is a fork of [David Barr's Sweep](https://github.com/davidphilipbarr/Sweep), which is itself based on the fabulous [Ferris by Pierre Chevalier](https://github.com/pierrechevalier83/ferris).
 
-| Earlier wired PCB, front | Earlier wired PCB, back |
+| Wireless Arkenswoop v0.8.0, front | Wireless Arkenswoop v0.8.0, back |
 | :---: | :---: |
-| ![front](/images/exports/arkenswoop/front.png) | ![back](/images/exports/arkenswoop/back.png) |
+| ![Front of the reversible PCB with the six-hole display header](images/exports/arkenswoop/front.png) | ![Back of the reversible PCB with the display solder jumpers](images/exports/arkenswoop/back.png) |
 
 ### Features
 
@@ -38,7 +36,13 @@ The wireless-only Arkenswoop v0.8.0 uses the following parts.
 * 2× LiPo batteries (301230 or 301228), one per half
 * 1× USB data cable for flashing and charging
 
-## Images
+## Backplates
+
+| Left | Right |
+| :---: | :---: |
+| ![Left backplate](images/exports/plates/left.png) | ![Right backplate](images/exports/plates/right.png) |
+
+## Earlier wired builds
 
 <details>
     <summary>Assembled Arkenswoop 0.6.0</summary>
@@ -48,3 +52,5 @@ The wireless-only Arkenswoop v0.8.0 uses the following parts.
     <summary>Back of assembled Arkenswoop 0.6.0</summary>
     <img src="images/full_build_back.jpeg">
 </details>
+
+[Wired prototype assembly photos](images/build)

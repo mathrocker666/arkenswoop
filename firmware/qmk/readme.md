@@ -1,6 +1,6 @@
 # Arkenswoop
 
-![Arkenswoop](../images/arkenswoop.jpg)
+![Assembled wired Arkenswoop v0.6.0](../../images/full_build.jpeg)
 
 *The Arkenswoop is an open source split keyboard based on the Swoop, itself based on the Ferris/Sweep.*
 
