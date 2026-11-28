@@ -1,6 +1,6 @@
 # Arkenswoop build guide
 
-Arkenswoop v0.9.0 uses Bluetooth between halves. Fit each half with its own nice!nano, power switch and battery. Flash the central and peripheral halves with the corresponding builds of your Arkenswoop wireless firmware.
+Arkenswoop v0.9.1 uses Bluetooth between halves. Fit each half with its own nice!nano, power switch and battery. Flash the central and peripheral halves with the corresponding builds of your Arkenswoop wireless firmware.
 
 ## Non hotswap version
 
@@ -27,7 +27,7 @@ Arkenswoop v0.9.0 uses Bluetooth between halves. Fit each half with its own nice
 
 ## Display
 
-Both halves use the same reversible PCB. The five socket holes form a single row centered on the nice!nano. Each hole has a solder jumper on each face. Choose the jumper face for your display before fitting its socket.
+Both halves use the same reversible PCB. The five socket holes form a single row centered on the nice!nano. The five display jumpers sit between the socket and the controller, under the outline of the installed nice!view. Each face has one jumper per hole. Choose the jumper face for your display before fitting its socket.
 
 ![Five centered socket holes with one display jumper pair per hole and CS marked at the right end](images/exports/arkenswoop/display.png)
 
